@@ -1,0 +1,12 @@
+{
+    "url": "http://localhost:4567",
+    "secret": "63e49b28-b9d1-4681-b0ac-795e74baf6d6",
+    "database": "redis",
+    "port": 4567,
+    "redis": {
+        "host": "ec2-34-249-251-118.eu-west-1.compute.amazonaws.com",
+        "port": "36089",
+        "password": "p7bac072300ba3a2ea8f17b5318d95398d2e186c9bb39491de88e7675b85ebfd0",
+        "database": "redis-spherical-85913"
+    }
+}

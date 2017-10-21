@@ -1,0 +1,2 @@
+"use strict";define("admin/manage/post-queue",function(){var t={};t.init=function(){$(".posts-list").on("click","[data-action]",function(){var t=$(this).parents("[data-id]");var a=$(this).attr("data-action");var e=t.attr("data-id");var r=a==="accept"?"posts.accept":"posts.reject";socket.emit(r,{id:e},function(a){if(a){return app.alertError(a.message)}t.remove()});return false})};return t});
+//# sourceMappingURL=public/src/admin/manage/post-queue.js.map

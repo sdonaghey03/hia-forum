@@ -1,0 +1,2 @@
+define("ace/snippets/csound_score",["require","exports","module"],function(e,s,n){"use strict";s.snippetText=undefined,s.scope="csound_score"});
+//# sourceMappingURL=node_modules/ace-builds/src-min/snippets/csound_score.js.map
